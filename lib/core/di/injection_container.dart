@@ -1,5 +1,10 @@
 import 'package:get_it/get_it.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+import '../../features/splash/data/datasources/splash_local_datasource.dart';
+import '../../features/splash/data/repositories/splash_repository_impl.dart';
+import '../../features/splash/domain/repositories/splash_repository.dart';
+import '../../features/splash/domain/usecases/initialize_app_usecase.dart';
+import '../../features/splash/presentation/controllers/splash_cubit.dart';
 import '../network/network_info.dart';
 import '../network/supabase_client.dart';
 
@@ -20,6 +25,11 @@ Future<void> initDependencies() async {
 
   // Register NetworkInfo
   sl.registerLazySingleton<NetworkInfo>(() => const NetworkInfoImpl());
+
+  // ---------------------------------------------------------------------------
+  // Features: Splash Module
+  // ---------------------------------------------------------------------------
+  _initSplashDependencies();
 
   // ---------------------------------------------------------------------------
   // Features: Auth Module
@@ -81,3 +91,26 @@ void _initPortfolioDependencies() {
 
   // Blocs / Cubits
 }
+
+void _initSplashDependencies() {
+  // Data Sources
+  sl.registerLazySingleton<SplashLocalDataSource>(
+    () => const SplashLocalDataSourceImpl(),
+  );
+
+  // Repositories
+  sl.registerLazySingleton<SplashRepository>(
+    () => SplashRepositoryImpl(localDataSource: sl()),
+  );
+
+  // Use Cases
+  sl.registerLazySingleton<InitializeAppUseCase>(
+    () => InitializeAppUseCase(sl()),
+  );
+
+  // Blocs / Cubits
+  sl.registerFactory<SplashCubit>(
+    () => SplashCubit(initializeAppUseCase: sl()),
+  );
+}
+
