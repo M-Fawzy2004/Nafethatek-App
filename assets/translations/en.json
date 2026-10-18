@@ -1,0 +1,81 @@
+{
+  "app_name": "Nafethatek",
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "retry": "Retry",
+    "loading": "Loading...",
+    "search": "Search...",
+    "no_data": "No data available",
+    "success": "Operation successful",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "details": "Details",
+    "see_all": "See All"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register New Account",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone Number",
+    "forgot_password": "Forgot Password?",
+    "dont_have_account": "Don't have an account?",
+    "already_have_account": "Already have an account?"
+  },
+  "home": {
+    "title": "Home",
+    "search_hint": "Search aluminum & UPVC workshops...",
+    "featured_workshops": "Featured Workshops",
+    "categories": "Categories",
+    "nearby": "Workshops Near You",
+    "view_portfolio": "View Portfolio"
+  },
+  "workshop": {
+    "profile": "Workshop Profile",
+    "contact_info": "Contact Information",
+    "address": "Address",
+    "governorate": "Governorate",
+    "city": "City",
+    "materials_offered": "Materials Offered",
+    "rating": "Rating",
+    "portfolio": "Portfolio",
+    "subscription_active": "Subscription Active",
+    "subscription_expired": "Subscription Expired",
+    "categories": {
+      "windows": "Windows",
+      "doors": "Doors",
+      "kitchens": "Kitchens",
+      "facades": "Facades"
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio Gallery",
+    "add_item": "Add New Work",
+    "item_title": "Project Title",
+    "category": "Category",
+    "select_image": "Select Image",
+    "delete_confirm": "Are you sure you want to delete this item?"
+  },
+  "calculator": {
+    "title": "Cost & Cutting Calculator",
+    "width": "Width (cm)",
+    "height": "Height (cm)",
+    "quantity": "Quantity",
+    "calculate": "Calculate Now",
+    "total_cost": "Estimated Cost"
+  },
+  "errors": {
+    "general": "An unexpected error occurred. Please try again later.",
+    "network": "No internet connection. Please check your network.",
+    "server": "Server error. Please try again.",
+    "auth": "Authentication failed or invalid credentials.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "not_found": "The requested item was not found."
+  }
+}

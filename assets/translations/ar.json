@@ -1,0 +1,81 @@
+{
+  "app_name": "نافذتك",
+  "common": {
+    "ok": "حسناً",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "confirm": "تأكيد",
+    "retry": "إعادة المحاولة",
+    "loading": "جاري التحميل...",
+    "search": "بحث...",
+    "no_data": "لا توجد بيانات متاحة",
+    "success": "تمت العملية بنجاح",
+    "call": "اتصال",
+    "whatsapp": "واتساب",
+    "details": "التفاصيل",
+    "see_all": "عرض الكل"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب جديد",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "phone": "رقم الهاتف",
+    "forgot_password": "نسيت كلمة المرور؟",
+    "dont_have_account": "ليس لديك حساب؟",
+    "already_have_account": "لديك حساب بالفعل؟"
+  },
+  "home": {
+    "title": "الرئيسية",
+    "search_hint": "ابحث عن ورش الألمنيوم و UPVC...",
+    "featured_workshops": "أبرز الورش المعتمدة",
+    "categories": "الأقسام",
+    "nearby": "ورش بالقرب منك",
+    "view_portfolio": "معرض الأعمال"
+  },
+  "workshop": {
+    "profile": "ملف الورشة",
+    "contact_info": "معلومات الاتصال",
+    "address": "العنوان",
+    "governorate": "المحافظة",
+    "city": "المدينة",
+    "materials_offered": "المواد المستخدمة",
+    "rating": "التقييم",
+    "portfolio": "معرض الأعمال",
+    "subscription_active": "اشتراك مفعل",
+    "subscription_expired": "اشتراك منتهي",
+    "categories": {
+      "windows": "شبابيك",
+      "doors": "أبواب",
+      "kitchens": "مطابخ",
+      "facades": "واجهات"
+    }
+  },
+  "portfolio": {
+    "title": "معرض الأعمال",
+    "add_item": "إضافة عمل جديد",
+    "item_title": "عنوان العمل",
+    "category": "القسم",
+    "select_image": "اختر صورة",
+    "delete_confirm": "هل أنت متأكد من حذف هذا العمل؟"
+  },
+  "calculator": {
+    "title": "حاسبة التكلفة والتقطيع",
+    "width": "العرض (سم)",
+    "height": "الارتفاع (سم)",
+    "quantity": "الكمية",
+    "calculate": "احسب الآن",
+    "total_cost": "التكلفة التقديرية"
+  },
+  "errors": {
+    "general": "حدث خطأ غير متوقع، يرجى المحاولة لاحقاً",
+    "network": "لا يوجد اتصال بالإنترنت، يرجى التحقق من الشبكة",
+    "server": "خطأ في الخادم، يرجى إعادة المحاولة",
+    "auth": "فشل التحقق من الهوية أو بيانات الدخول غير صحيحة",
+    "unauthorized": "غير مصرح لك بالقيام بهذا الإجراء",
+    "not_found": "العنصر المطلوب غير موجود"
+  }
+}
